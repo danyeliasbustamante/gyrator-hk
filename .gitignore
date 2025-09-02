@@ -1,0 +1,7 @@
+# MATLAB / Octave ignores
+*.asv
+*.mat
+*.mex*
+*.fig
+*.slprj/
+.DS_Store
