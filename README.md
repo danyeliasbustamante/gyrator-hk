@@ -1,6 +1,6 @@
 # Discrete Gyrator on 2D Hermite–Kravchuk Modes (MATLAB)
 
-This repository implements the **discrete gyrator** (a rotation in the phase space) on the 2D **Hermite–Kravchuk (HK)** basis via the **SU(2)** representation—using **Wigner small‑d** coefficients. It includes an `n=2` demo at \(\gamma=\pi/4\) and quick sanity checks for \(\gamma\in\{0,\pi/2,\pi\}\).
+This repository implements the **discrete gyrator** (a rotation in the phase space) on the 2D **Hermite–Kravchuk (HK)** basis via the **SU(2)** representation—using **Wigner small‑d** coefficients. It includes an `n=2` demo at γ=π/4 and quick sanity checks for γ∈{0, π/2, π}.
 
 > Why this matters: HK modes form a finite, orthonormal, pixel‑aligned basis on a square grid. The gyrator is unitary and mixes HK modes with weights given by Wigner-\(d\). This is a compact way to study discrete rotations in optical/quantum‑optics settings.
 
