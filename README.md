@@ -29,6 +29,20 @@ run('demos/demo_n2_pi4.m');        % writes figs/demo.png
 - Symmetry projectors: cyclic **Cₙ** and dihedral **Dₙ** (with correct {k, −k} pairing).
 - Mirror operator `F` and `x↔y` permutation `Pxy = Ry(π)`.
 
+### Figures
+
+<p float="left">
+  <a href="figs/fractions_Cn_Dn.png">
+    <img src="figs/fractions_Cn_Dn.png" width="48%" alt="C₆/D₆ symmetry fractions">
+  </a>
+  <a href="figs/mirror_expectation.png">
+    <img src="figs/mirror_expectation.png" width="48%" alt="Mirror expectation ⟨F⟩">
+  </a>
+</p>
+
+*From `demos/symmetry_scan_demo.m`: fractions \(E_k(\alpha)\), \(E_{k,\pm}(\alpha)\) and mirror expectation \(\langle F\rangle\).*
+
+
 **Files.**
 - `src/su2_hk_addon.m` – operators + projectors + reproducible tests **A–G**.
 - `src/gyrator_hk_master.m` – base HK/LK + gyrator (used by the tests).
