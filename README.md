@@ -34,6 +34,17 @@ run('demos/demo_n2_pi4.m');        % writes figs/demo.png
 - `src/gyrator_hk_master.m` – base HK/LK + gyrator (used by the tests).
 - `demos/symmetry_scan_demo.m` *(optional)* – sweeps of α to plot \(E_k(α)\), \(E_{k,±}(α)\).
 
+## 🔗 Quick links
+
+- **SU(2) tests (A–G)** → [`src/su2_hk_addon.m`](src/su2_hk_addon.m)
+- **Symmetry scan demo** → [`demos/symmetry_scan_demo.m`](demos/symmetry_scan_demo.m)
+
+### How to run
+```matlab
+clear functions; rehash; su2_hk_addon          % run tests A–G
+run('demos/symmetry_scan_demo.m')              % run the symmetry demo
+
+
 **Quick start.**
 ```matlab
 >> clear functions; rehash;
