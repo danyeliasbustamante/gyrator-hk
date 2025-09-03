@@ -22,6 +22,24 @@ run('demos/demo_n2_pi4.m');        % writes figs/demo.png
   <img src="figs/demo.png" alt="HK n=2 gyration demo" width="500"/>
 </p>
 
+## Symmetry add-on: SU(2) rotations & Cₙ/Dₙ projectors
+
+**What it is.** MATLAB add-on that adds symmetry operators to the gyrator (HK/LK) code:
+- SU(2) rotations: `Rz`, `Ry` (Wigner little-d), `Rx = Rz(π/2) Ry Rz(−π/2)`.
+- Symmetry projectors: cyclic **Cₙ** and dihedral **Dₙ** (with correct {k, −k} pairing).
+- Mirror operator `F` and `x↔y` permutation `Pxy = Ry(π)`.
+
+**Files.**
+- `src/su2_hk_addon.m` – operators + projectors + reproducible tests **A–G**.
+- `src/gyrator_hk_master.m` – base HK/LK + gyrator (used by the tests).
+- `demos/symmetry_scan_demo.m` *(optional)* – sweeps of α to plot \(E_k(α)\), \(E_{k,±}(α)\).
+
+**Quick start.**
+```matlab
+>> clear functions; rehash;
+>> su2_hk_addon
+
+
 ## Contents
 - `src/gyrator_hk_master.m` — **single-file** implementation with a master function and local subfunctions:
   - `gyrator_mode_eq27` — core SU(2) mixing using Wigner small‑d and phase convention
