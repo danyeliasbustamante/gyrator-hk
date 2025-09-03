@@ -59,7 +59,7 @@ clear functions; rehash; su2_hk_addon          % run tests A–G
 run('demos/symmetry_scan_demo.m')              % run the symmetry demo
 
 Figures (optional)
-<p float="left"> <img src="figs/fractions_Cn_Dn.png" width="48%" alt="C₆/D₆ symmetry fractions"> <img src="figs/mirror_expectation.png" width="48%" alt="Mirror expectation ⟨F⟩"> </p>
+<p float="left"> <a href="figs/fractions_Cn_Dn.png"> <img src="figs/fractions_Cn_Dn.png" width="48%" alt="C₆/D₆ symmetry fractions"> </a> <a href="figs/mirror_expectation.png"> <img src="figs/mirror_expectation.png" width="48%" alt="Mirror expectation ⟨F⟩"> </a> </p> ```
 
 **Quick start.**
 ```matlab
