@@ -6,7 +6,7 @@ This repository implements the **discrete gyrator** (a rotation in the phase spa
 
 ## Quick start (MATLAB R2022b+)
 ```matlab
-addpath src, addpath demos
+addpath src; addpath demos
 gyrator_hk_master;                 % N=16, gamma=pi/4
 % or
 [HK,LK,SHW,mgrid] = gyrator_hk_master(32, pi/6);
@@ -60,12 +60,6 @@ run('demos/symmetry_scan_demo.m')              % run the symmetry demo
 
 Figures (optional)
 <p float="left"> <a href="figs/fractions_Cn_Dn.png"> <img src="figs/fractions_Cn_Dn.png" width="48%" alt="C₆/D₆ symmetry fractions"> </a> <a href="figs/mirror_expectation.png"> <img src="figs/mirror_expectation.png" width="48%" alt="Mirror expectation ⟨F⟩"> </a> </p> ```
-
-**Quick start.**
-```matlab
->> clear functions; rehash;
->> su2_hk_addon
-
 
 ## Contents
 - `src/gyrator_hk_master.m` — **single-file** implementation with a master function and local subfunctions:
