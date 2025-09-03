@@ -44,6 +44,8 @@ run('demos/demo_n2_pi4.m');        % writes figs/demo.png
 clear functions; rehash; su2_hk_addon          % run tests A–G
 run('demos/symmetry_scan_demo.m')              % run the symmetry demo
 
+Figures (optional)
+<p float="left"> <img src="figs/fractions_Cn_Dn.png" width="48%" alt="C₆/D₆ symmetry fractions"> <img src="figs/mirror_expectation.png" width="48%" alt="Mirror expectation ⟨F⟩"> </p>
 
 **Quick start.**
 ```matlab
@@ -56,7 +58,9 @@ run('demos/symmetry_scan_demo.m')              % run the symmetry demo
   - `gyrator_mode_eq27` — core SU(2) mixing using Wigner small‑d and phase convention
   - `hermiteKravchuk2D`, `kravchukOrthonormal` — orthonormal HK basis on a (N+1)×(N+1) grid
   - `wignerLittleD` — numerically stable Wigner \(d^j_{m,m'}(\beta)\), with special cases at \(\beta=0,\pi\)
+- src/su2_hk_addon.m — SU(2) operators, Cₙ/Dₙ projectors, mirror/permutation, and tests A–G
 - `demos/demo_n2_pi4.m` — 5‑line demo to generate the 3×3 figure
+- demos/symmetry_scan_demo.m — symmetry-resolved plots E_k(alpha), E_{k,+/-}(alpha)
 - `tests/quick_checks.m` — quick validation: identity at \(\gamma=0\); unit‑norm at \(\gamma=\pi/2,\pi\)
 
 ## Phase convention
